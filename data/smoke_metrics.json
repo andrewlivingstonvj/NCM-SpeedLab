@@ -1,0 +1,19 @@
+{
+  "project": "NCM-SpeedLab",
+  "task": "XSum summarization",
+  "model": "Official HazyResearch NCM checkpoint",
+  "evaluation_type": "smoke test",
+  "examples": 4,
+  "rouge1": 42.96,
+  "rouge2": 13.99,
+  "rougeL": 36.60,
+  "genPPL": 37.46,
+  "avg_output_words": 20.5,
+  "hardware": "Google Colab GPU; exact GPU model not yet recorded",
+  "limitations": [
+    "Only four examples were evaluated.",
+    "These scores are a smoke test, not a reliable full-benchmark result.",
+    "End-to-end generation latency has not been measured in this run.",
+    "No comparison against an autoregressive baseline has been performed yet."
+  ]
+}
